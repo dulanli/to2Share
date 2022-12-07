@@ -1,0 +1,233 @@
+
+/*Navbar */
+ #logox{
+    margin-right: 80%;
+    cursor: pointer;
+    font-family: Pacifico;
+    font-size: 25px;
+}
+
+#logoy{
+    margin-right: 80%;
+    cursor: pointer;
+    font-family: Pacifico;
+    font-size: 25px;
+}
+
+.nav-item{
+    cursor: pointer;
+}
+
+.navbar{
+    transition: .7s ease;
+}
+
+/* Home Page */
+
+.head{
+    background: linear-gradient(rgba(0,0,0,0.6),rgba(0,0,0,0.6)),url("./img/bg.png");
+    height: 100vh;
+    background-size: cover;
+    background-position: center center;
+    position: relative;
+}
+
+.welcome-text{
+    position: absolute;
+    width: 600px;
+    height: 300px;
+    margin: 25% 30%;
+    text-align: center;
+}
+
+.h1welcome{
+    text-align: center;
+    color: #fff;
+    text-transform: uppercase;
+    font-size: 60px;
+}
+
+.CreateAccount{
+    border: 1px solid #fff;
+    padding: 10px 25px;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 14px;
+    margin-top: 20px;
+    display: inline-block;
+    color: #fff;
+}
+
+.CreateAccount:hover{
+    background: #fff;
+    text-decoration: none;
+    cursor: pointer;
+    color: #333;
+}
+
+
+/* Login Page */
+
+#loginForm{
+    width: 400px;
+    height: 300px;
+    margin: 9% 38%;
+    text-align: left;
+}
+
+.loginText{
+    width: 300px;
+	margin: 9% auto;
+    font-family: Verdana, Geneva, sans-serif;
+	font-size: 27px;
+	text-align: center;
+	border-bottom: 5px solid purple;
+    border-radius: 15px;
+	margin-bottom: 5px;
+	padding: 10px;
+    transition: .6s ease;
+}
+
+#loginButton{
+    margin: 4% 38%;
+    opacity: 1;
+    width: 110px;
+}
+
+/* Sign Up Page */
+
+#signUpForm{
+    width: 500px;
+    height: 300px;
+    margin: 4% 34%;
+    text-align: left;
+}
+
+.signUpText{
+    font-family: Verdana, Geneva, sans-serif;
+	font-size: 28px;
+	text-align: center;
+	border-bottom: 5px solid purple;
+    border-radius: 15px;
+	margin-bottom: 20px;
+	padding: 10px;
+    transition: .6s ease;
+}
+
+#inputGender{
+    width: 140px;
+    cursor: pointer;
+}
+
+#signUpButton{
+    margin: 4% 40%;
+    opacity: 1;
+    width: 100px;
+}
+
+/* My2Share Page (After Login) */ 
+
+#shareForm{
+    width: 65%;
+    margin: 4% 33%;
+}
+
+#shareInput{
+    width: 100%;
+    font-family: "Lucida Console", "Courier New", monospace;
+    font-size: 18px;
+    text-align: left;
+    height: 100px;
+
+}
+
+#shareButton{
+    width: 49.5%;
+    margin: 0.1% 0%;
+}
+
+#shareButton:hover{
+    opacity: 0.8;
+}
+
+/* Home2sharePage (After Login) */
+
+#post{
+    width: 200%;
+    margin: 2% 40%;
+}
+
+#post-email{
+    font-size: 20px;
+}
+
+#post-date{
+    font-size: 10px;
+}
+
+#post-text{
+    font-size: 18px;
+}
+
+.like__btn{
+    margin: 0% 25%;
+    width: 50%;
+
+    padding: 5px 10px;
+    background: #0080ff;
+    font-size: 18px;
+    font-family: "Open Sans", sans-serif;
+    border-radius: 5px;
+    color: #e8efff;
+    outline: none;
+    border: none;
+    cursor: pointer;
+}
+
+#likeBtn:hover{
+    opacity: 0.7;
+}
+
+/* Profile Page */
+
+#firstnForm{ 
+    display: flex;
+    margin: 2% 37%;
+}
+
+#firstn{
+    width: 75%;
+}
+
+#firstnBtn{
+    width: 23%;
+    margin: 0% 0%;
+}
+
+#lastnForm{
+    display: flex;
+    margin: 2% 37%;
+}
+
+#lastn{
+    width: 75%;
+}
+
+#lastnBtn{
+    width: 23%;
+    margin: 0% 0%;
+}
+
+#accpwForm{
+    display: flex;
+    margin: 2% 37%;
+}
+
+#accPassword{
+    width: 75%;
+}
+
+#accPasswordBtn{
+    width: 23%;
+    margin: 0% 0%;
+}
